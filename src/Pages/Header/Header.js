@@ -26,7 +26,7 @@ const Header = () => {
                                     <img src={user?.photoURL} width="30px" className="rounded-pill border border-warning border-2" alt={user?.displayName} />
                                 </span>
 
-                                <Button onClick={logOut} className="navlink bg-success" variant="contained" activeStyle={navStyle}>Logout</Button>
+                                <Button onClick={logOut} className="navlink bg-success" variant="contained">Logout</Button>
                             </span>
                             :
                             <NavLink className="navlink" activeStyle={navStyle} to="/login"><Button variant="contained" className="bg-danger">Login</Button></NavLink>
@@ -51,10 +51,10 @@ const Header = () => {
                                 <img src={user?.photoURL} width="30px" className="rounded-pill border border-warning border-2" alt={user?.displayName} />
                             </span>
 
-                            <Button onClick={logOut} className="navlink bg-success" variant="contained" activeStyle={navStyle}>Logout</Button>
+                            <Button onClick={logOut} className="navlink bg-success" variant="contained">Logout</Button>
                         </span>
                         :
-                        <NavLink className="navlink" activeStyle={navStyle} to="/login">Login</NavLink>
+                        <NavLink className="navlink" activeStyle={navStyle} to="/login"><Button variant="contained" className="bg-danger">Login</Button></NavLink>
                 }
             </div>
         </div >

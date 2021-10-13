@@ -8,7 +8,7 @@ const Expert = ({ expert }) => {
         <div className="expert">
             <img src={img} className="img-fluid" alt={name} />
             <div>
-                <h3>{name}</h3>
+                <h3><i className="fas fa-user"></i> {name}</h3>
                 <p>Expertise: {expertise}</p>
             </div>
 

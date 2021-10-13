@@ -13,7 +13,7 @@ const NotFound = () => {
     return (
         <div style={backgroundStyle}>
             <div className="col-md-6 mx-auto pt-3">
-                <i class="fas fa-exclamation-circle fa-4x text-warning"></i>
+                <i className="fas fa-exclamation-circle fa-4x text-warning"></i>
                 <h1 className="text-danger">404</h1>
                 <h2 className="text-white">The Page Your're trying to access was not found</h2>
             </div>

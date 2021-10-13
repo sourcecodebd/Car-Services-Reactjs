@@ -21,8 +21,8 @@ const Shipping = () => {
 
     return (
         <div style={backgroundStyle} className="pt-2">
-            <div className="alert alert-light col-md-6 mx-auto">
-                <h2>{user?.displayName}! Purchase Your Order</h2>
+            <div className="alert alert-light col-md-6 mx-auto bg-danger text-white">
+                <h4>{user?.displayName}! <i className="fas fa-cart-plus"></i> Purchase Your Order</h4>
             </div>
             <div className="shipping">
                 <form className="shipping-form" onSubmit={handleSubmit(onSubmit)}>

@@ -41,6 +41,9 @@
     .nav{
         display: none;
     }
+    .navlink{
+        padding: 5px 0
+    }
     .mobile-nav{
         display: flex;
         justify-content: space-between;
@@ -52,7 +55,7 @@
     }
     .menu{
         background-color: rgba(187, 187, 233, 0.267);
-        margin-top: -130px;
+        margin-top: -160px;
         display: block;
         padding: 10px 0;
     }

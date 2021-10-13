@@ -27,8 +27,8 @@ const ServiceDetails = () => {
     return (
         <div className="pt-5" style={backgroundStyle}>
             <div className="card shadow col-md-6 mx-auto px-5 py-3 bg-dark text-info border-white rounded-3 mt-3">
-                <h3>Id: {serviceId}</h3>
-                <h3>{singleService?.name}</h3>
+                <h3><i class="fas fa-id-card"></i> {serviceId}</h3>
+                <h3><i class="fas fa-car"></i> {singleService?.name}</h3>
                 <p style={justify}>{singleService?.description}</p>
             </div>
         </div>

@@ -105,21 +105,21 @@ const Login = () => {
 
     return (
         <div className="container-fluid text-white shadow-lg pt-2" style={backgroundStyle}>
-            <div className="alert alert-light col-md-6 mx-auto">
-                <a href="/login" className="text-decoration-none text-primary"><h2 className="fw-bold">Please {isLogin ? 'Register' : 'Login'}</h2></a>
+            <div className="alert alert-light col-md-6 mx-auto bg-primary">
+                <a href="/login" className="text-decoration-none text-primary"><h4 className="fw-bold text-white"> <i className="fas fa-power-off"></i> Please {isLogin ? 'Register' : 'Login'}</h4></a>
             </div>
             <div className="d-flex justify-content-center">
                 <form onSubmit={handleEmailForm} className="col-10 col-md-6 shadow px-3 my-2 rounded-3 pb-3">
                     {
                         success &&
-                        <Alert severity="success" className="mb-2">
+                        <Alert severity="success" className="mb-2 fw-bold">
                             <AlertTitle>Success</AlertTitle>
                             {success}
                         </Alert>
                     }
                     {
                         error &&
-                        <Alert severity="error" className="mb-2">
+                        <Alert severity="error" className="mb-2 fw-bold">
                             <AlertTitle>Error</AlertTitle>
                             {error}
                         </Alert>
@@ -158,11 +158,11 @@ const Login = () => {
                             </div>
                         </div>
                     </div>
-                    <button type="submit" className="btn btn-primary shadow">Sign {isLogin ? 'up' : 'in'}</button>
+                    <button type="submit" className="btn btn-primary shadow">{isLogin ? <i className="fas fa-user-plus"></i> : <i className="fas fa-sign-in-alt"></i>} Sign {isLogin ? 'up' : 'in'}</button>
                 </form>
             </div>
             <div className="d-flex justify-content-center align-items-center">
-                <button onClick={getResetPassword} className="btn-warning rounded shadow">Forgot password?</button>
+                <button onClick={getResetPassword} className="btn-warning rounded shadow"><i className="fas fa-unlock-alt"></i> Forgot password?</button>
             </div>
             <div className="d-flex justify-content-center gap-2 mt-3 mb-5">
                 <button onClick={handleGoogleLogin} className="btn btn-danger shadow"><i className="fa fa-google"></i> Sign in with Google</button>

@@ -17,8 +17,8 @@ const PlaceOrder = () => {
 
     return (
         <div style={backgroundStyle} className="pt-2">
-            <div className="alert alert-light col-md-6 mx-auto">
-                <h2>{user?.displayName}! Place Your Order</h2>
+            <div className="alert alert-light col-md-6 mx-auto bg-danger text-white">
+                <h4>{user?.displayName}! <i className="fas fa-shopping-bag"></i> Place Your Order</h4>
             </div>
             <div className="d-flex justify-content-center mt-3">
                 <Button variant="contained">Continue</Button>

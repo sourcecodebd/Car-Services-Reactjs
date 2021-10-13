@@ -31,7 +31,7 @@ const Services = () => {
                 <p className="lines"></p>
 
                 <div className="search-bar-service">
-                    <i className="fas fa-search"></i>
+                    <i className="fas fa-search" id="service-search"></i>
                     <input onChange={handleSearch} type="text" placeholder="Search" id="" />
                 </div>
 

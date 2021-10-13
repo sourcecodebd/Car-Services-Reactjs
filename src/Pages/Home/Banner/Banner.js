@@ -5,7 +5,7 @@ import { Carousel } from 'react-bootstrap';
 const Banner = () => {
 
     return (
-        <div>
+        <div id="banner">
             <Carousel fade>
                 <Carousel.Item>
                     <img

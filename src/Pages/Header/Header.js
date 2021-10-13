@@ -4,17 +4,21 @@ import { NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Header.css'
 import pressOnBar from './Nav.js';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const { user, logOut } = useAuth();
 
     const navStyle = { color: 'limegreen', fontWeight: 'bold', caretColor: 'transparent', textDecoration: 'none' };
     return (
-        <div className="header" id="header">
+        <div className="header">
             <nav className="nav">
                 <div>
                     <NavLink to="/"><img src="./favicon.ico" className="header-image" width="30px" title="car-services-bd.com" alt="Car-Services" /></NavLink>
                     <NavLink className="navlink" activeStyle={navStyle} to="/home">Home</NavLink>
+                    <NavLink className="navlink" activeStyle={navStyle} to="/search"><i className="fas fa-search"></i></NavLink>
+                    <HashLink className="navlink" activeStyle={navStyle} to="/services#services">Services</HashLink>
+                    <HashLink className="navlink" activeStyle={navStyle} to="/experts#experts">Experts</HashLink>
                     <NavLink className="navlink" activeStyle={navStyle} to="/place-order">Place Order</NavLink>
                     <NavLink className="navlink" activeStyle={navStyle} to="/shipping">Shipping</NavLink>
                     {
@@ -40,6 +44,9 @@ const Header = () => {
             </nav>
             <div className="menu">
                 <NavLink className="navlink" activeStyle={navStyle} to="/home">Home</NavLink>
+                <NavLink className="navlink" activeStyle={navStyle} to="/search"><i className="fas fa-search"></i></NavLink>
+                <NavLink className="navlink" activeStyle={navStyle} to="/services#services">Services</NavLink>
+                <NavLink className="navlink" activeStyle={navStyle} to="/experts/#experts">Experts</NavLink>
                 <NavLink className="navlink" activeStyle={navStyle} to="/place-order">Place Order</NavLink>
                 <NavLink className="navlink" activeStyle={navStyle} to="/shipping">Shipping</NavLink>
                 {

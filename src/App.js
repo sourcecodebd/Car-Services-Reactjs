@@ -10,6 +10,9 @@ import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 import Footer from './Pages/Footer/Footer';
 import NotFound from './Pages/NotFound/NotFound';
+import Services from './Pages/Home/Services/Services';
+import Experts from './Pages/Home/Experts/Experts';
+import Search from './Pages/Home/Search/Search';
 
 function App() {
   return (
@@ -23,6 +26,15 @@ function App() {
             </Route>
             <Route path='/home'>
               <Home />
+            </Route>
+            <Route path='/search'>
+              <Search />
+            </Route>
+            <Route path='/services'>
+              <Services />
+            </Route>
+            <Route path='/experts'>
+              <Experts />
             </Route>
             <Route path='/login'>
               <Login />

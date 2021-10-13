@@ -22,7 +22,7 @@ const Footer = () => {
                 <a href="https://www.aiub.edu"><p>www.aiub.edu</p></a>
             </div>
 
-            <a href="#header" className="text-white">
+            <a href="#banner" className="text-white">
                 <div className="scrollToTop">
                     <i className="fas fa-arrow-up"></i>
                 </div>

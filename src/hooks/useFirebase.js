@@ -17,6 +17,9 @@ const useFirebase = () => {
     const googleProvider = new GoogleAuthProvider();
     const githubProvider = new GithubAuthProvider();
 
+    // checking if initial state is getting user from useAuth(). if not then loading forever untill getting value
+    const [isLoading, setIsLoading] = useState(true);
+
     const getGoogleSignIn = () => {
         return signInWithPopup(auth, googleProvider);
     }
@@ -24,11 +27,17 @@ const useFirebase = () => {
         return signInWithPopup(auth, githubProvider);
     }
     useEffect(() => {
-        onAuthStateChanged(auth, userInfo => {
+        const unsubscribed = onAuthStateChanged(auth, userInfo => {
             if (userInfo && userInfo.emailVerified) {
                 setUser(userInfo);
             }
-        })
+            else {
+                setUser({});
+            }
+            setIsLoading(false);
+        });
+        return () => unsubscribed;
+
     }, [auth]);
 
     const logOut = () => {
@@ -95,7 +104,9 @@ const useFirebase = () => {
         getEmailSignIn,
         getVerifyEmail,
         getUpdateProfile,
-        getResetPassword
+        getResetPassword,
+        isLoading,
+        setIsLoading,
     }
 }
 

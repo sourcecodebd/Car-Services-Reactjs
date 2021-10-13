@@ -10,13 +10,16 @@ const Login = () => {
         setIsLogin(e.target.checked);
     }
 
-    const { getGoogleSignIn, getGithubSignIn, getEmailSignUp, getEmailSignIn, getName, getEmail, getPassword, getVerifyEmail, getUpdateProfile, getResetPassword, error, success, setUser, setError, setSuccess } = useAuth();
+    const { getGoogleSignIn, getGithubSignIn, getEmailSignUp, getEmailSignIn, getName, getEmail, getPassword, getVerifyEmail, getUpdateProfile, getResetPassword, error, success, setUser, setError, setSuccess, setIsLoading } = useAuth();
 
     const location = useLocation();
     const redirect_uri = location.state?.from || '/home';
     const history = useHistory();
 
+
     const handleGoogleLogin = () => {
+        setIsLoading(true);
+
         getGoogleSignIn()
             .then(result => {
                 history.push(redirect_uri);
@@ -28,8 +31,11 @@ const Login = () => {
                 setError(err.code);
                 setSuccess('');
             })
+            .finally(() => setIsLoading(false));
     }
     const handleGithubLogin = () => {
+        setIsLoading(true);
+
         getGithubSignIn()
             .then(result => {
                 console.log(result.user);
@@ -40,10 +46,12 @@ const Login = () => {
                 setError(err.code);
                 setSuccess('');
             })
+            .finally(() => setIsLoading(false));
     }
 
     // handle Login / register form
     const handleEmailForm = (e) => {
+        setIsLoading(true);
         e.preventDefault();
         isLogin ? handleEmailRegister() : handleEmailLogin();
     }
@@ -63,6 +71,7 @@ const Login = () => {
                 setError(err.code);
                 setSuccess('');
             })
+            .finally(() => setIsLoading(false));
     }
     // login
     const handleEmailLogin = () => {
@@ -84,6 +93,7 @@ const Login = () => {
                 setError(err.code);
                 setSuccess('');
             })
+            .finally(() => setIsLoading(false));
     }
     const handleVerifyEmail = () => {
         getVerifyEmail()

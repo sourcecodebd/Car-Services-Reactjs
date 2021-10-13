@@ -23,9 +23,14 @@ const Search = () => {
         }
     }
 
+    const backgroundStyle = {
+        padding: '10vh 0 20vh 0',
+        margin: 0
+    }
+
     return (
         <div>
-            <div className="search-bar">
+            <div className="search-bar bg-dark" style={backgroundStyle}>
                 <i className="fas fa-search fa-2x" onClick={searchLogo} id="expert-search"></i>
                 <input onChange={handleSearch} type="text" placeholder="Search" className="search-input" />
             </div>

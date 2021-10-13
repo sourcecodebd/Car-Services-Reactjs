@@ -1,7 +1,7 @@
 footer{
     background-color: #2f72d6;
     color: white;
-    margin-top: 100px
+    min-height: 55vh
 }
 .scrollToTop{
     background-color: #0bbaff;
@@ -21,5 +21,5 @@ a{
     color: inherit;
 }
 a:hover{
-    color:rgba(0, 0, 0, 0.9)
+    color:rgba(0, 0, 0, 0.9);
 }

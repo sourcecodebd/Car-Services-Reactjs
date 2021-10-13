@@ -34,14 +34,15 @@
 #expert-search{
     position: absolute;
     z-index: 1;
-    margin-right: 150px;
     caret-color: transparent;
     cursor: pointer;
+    color: white;
 }
 .fa-search-show{
     transform: scale(0.5);
     transform: translateX(200px);
-    background-color: transparent
+    background-color: transparent;
+    color: white
 }
 .search-bar input::placeholder{
     color: white;
@@ -69,7 +70,6 @@
 @media only screen and (max-width: 768px){
     .fa-search-show{
         transform: translateX(90px);
-        margin-left: 200px
     }
     .search-result{
         width: 100%;
@@ -78,7 +78,6 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .fa-search-show{
         transform: translateX(180px);
-        margin-left: 200px
     }
 }
 /* search-bar */

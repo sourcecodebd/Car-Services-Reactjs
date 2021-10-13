@@ -21,7 +21,7 @@
 .search-bar-service input::placeholder{
     color: white;
 }
-.fa-search{
+#service-search{
     position: absolute;
     margin-left: 150px;
     z-index: 1;

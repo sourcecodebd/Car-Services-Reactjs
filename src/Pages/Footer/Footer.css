@@ -1,0 +1,25 @@
+footer{
+    background-color: #2f72d6;
+    color: white;
+    margin-top: 100px
+}
+.scrollToTop{
+    background-color: #0bbaff;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 2px;
+    margin: right;
+    box-shadow: rgba(0, 0, 0, 0.9)2px 4px 8px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color:rgba(0, 0, 0, 0.9)
+}

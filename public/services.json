@@ -1,0 +1,298 @@
+[
+    {
+        "id": 1,
+        "name": "ENGINE DIAGNOSTIC",
+        "price": 8000,
+        "description": "You need your car, and when you leave it in the shop for repairs, you can't help worrying about the cost and the quality of the work that's going on under the hood. Your best protection from fraud and faulty repair work is to find a reputable mechanic or repair shop before your car needs to be repaired To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill.",
+        "time": 4.15,
+        "img": "https://d2umf0wn5a0ghn.cloudfront.net/EK4G3789.jpg"
+    },
+    {
+        "id": 2,
+        "name": "OIL CHANGING",
+        "price": 1600,
+        "description": "If you suspect that the repair shop has not properly repaired the vehicle or charged you too much and you can't get them to resolve the problem to your satisfaction, your first step should be to take your car to another repair shop. Give the second mechanic a copy of your itemized receipt and order an inspection of the alleged repairs and parts. Get this report in writing.",
+        "time": 6.5,
+        "img": "https://i.ibb.co/jhCYC7j/Auto-mechanic-working-in-garage-Repair-service.jpg"
+    },
+    {
+        "id": 3,
+        "name": "BRAKE REPAIRING",
+        "price": 3700,
+        "description": "If you notice the same problem with your car is recurring, or find a new problem that should not have arisen, you will be in a better position to negotiate a refund from the first mechanic if you get a second mechanic's opinion of the work done in writing. Your best protection from fraud and faulty repair work is to find a reputable mechanic or repair shop before your car needs to be repaired.",
+        "time": 2.3,
+        "img": "https://i.ibb.co/XCrM1VN/Car-painter-preparing-car-for-painting-in-workshop.jpg"
+    },
+    {
+        "id": 4,
+        "name": "WIPER BLADE REPLACEMENT",
+        "price": 7500,
+        "description": "The shop fails to notify you and secure your additional approval, in writing, for any additional work to be done that was not set forth in the original written agreement. Give the second mechanic a copy of your itemized receipt and order an inspection of the alleged repairs and parts. Get this report in writing. If you notice the same problem with your car is recurring, or find a new problem that should not have arisen, you will be in a better position to negotiate a refund from the first mechanic if you get a second mechanic's opinion of the work done in writing.",
+        "time": 2.15,
+        "img": "https://i.ibb.co/QjHq2LV/Auto-repairman-grinding-car-body-with-a-machine-preparing-vehicle-for-painting.jpg"
+    },
+    {
+        "id": 5,
+        "name": "REPLACE AIR FILTER",
+        "price": 4000,
+        "description": "Your best protection from fraud and faulty repair work is to find a reputable mechanic or repair shop before your car needs to be repaired. To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill. If you suspect that the repair shop has not properly repaired the vehicle or charged you too much and you can't get them to resolve the problem to your satisfaction, your first step should be to take your car to another repair shop.",
+        "time": 2.45,
+        "img": "https://i.ibb.co/Xtk3Ldz/Man-with-protective-clothes-and-mask-painting-automobile-car-bumper-in-repair-shop.jpg"
+    },
+    {
+        "id": 6,
+        "name": "SCHEDULED MAINTENANCE",
+        "price": 12000,
+        "description": "The authorization to commence repairs should also include the date and time that you signed the form. If you decide to have repairs made, make sure the initial work order clearly specifies the work to be done, fees, completion date, terms of payment, and more. If you paid by credit card and are unhappy with the repairs that were performed by the mechanic, then you may dispute the charge with your credit card company. To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill.",
+        "time": 5.15,
+        "img": "https://i.ibb.co/kHt3Vs3/Men-repair-a-truck-Man-teaches-repair-a-car-Two-men-in-uniform.jpg"
+    },
+    {
+        "id": 7,
+        "name": "BATTERY REPLACEMENT",
+        "price": 19000,
+        "description": "Have the shop write out the reasons for the difference in cost, and keep this written explanation together with the work estimate, final bill, and other paperwork. Make sure the mechanic returns your old parts. If the charge is much higher than the estimate, or if the work was done without your authorization and you feel that you have been overcharged, question the bill.",
+        "time": 2.4,
+        "img": "https://i.ibb.co/WzWVxJ8/A-young-worker-checks-wheel-Truck-malfunction-Service-work.jpg"
+    },
+    {
+        "id": 8,
+        "name": "ANTI-FREEZE ADDED",
+        "price": 2000,
+        "description": "You should not disclose your credit card account number, driver's license number, or any other personal information unless you clearly specify that giving the information is only for loan approval purposes, or unless you have approved the work, the work is finished, and you are ready to pay for it. If the charge is much higher than the estimate, or if the work was done without your authorization and you feel that you have been overcharged, question the bill.",
+        "time": 6.2,
+        "img": "https://i.ibb.co/n6pNpZk/Man-in-uniform-Truck-repair-Car-malfunction.jpg"
+    },
+    {
+        "id": 9,
+        "name": "ENGINE TUNE-UP",
+        "price": 8000,
+        "description": "The shop starts repair work before obtaining written approval of the loan from the finance company, in those instances where you borrow money to pay for repairs. If the loan company does not approve the loan, and the work is already done, you may still be liable for the payment if you can't show the deception. To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill.",
+        "time": 2.05,
+        "img": "https://i.ibb.co/dpcQr5g/Car-mechanic-man-at-the-garage-fixing-the-engine-Hands-of-car-mechanic-with-wrench-in-garage-Close-u.jpg"
+    },
+    {
+        "id": 10,
+        "name": "WHEELS ALIGNED /  BALANCED",
+        "price": 6000,
+        "description": "To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill. Deceptive shops will extract this personal information from you, commence work without your authorization, and then claim that you authorized the work because you provided this information and would not have done so unless you had authorized the repairs.",
+        "time": 6.15,
+        "img": "https://i.ibb.co/7Qg54rn/car-service-10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "COOLANT FLUSH",
+        "price": 1000,
+        "description": "you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill. Make sure you send the dispute letter and all relevant information (receipts and documentation supporting your position) to the billing inquiry address and not the payment address. If you paid by credit card and are unhappy with the repairs that were performed by the mechanic, then you may dispute the charge with your credit card company.",
+        "time": 2,
+        "img": "https://i.ibb.co/X4WTcQ2/car-service-11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "LIGHTS CHECK",
+        "price": 2000,
+        "description": "If you paid by credit card and are unhappy with the repairs that were performed by the mechanic, then you may dispute the charge with your credit card company. To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill. Make sure you send the dispute letter and all relevant information (receipts and documentation supporting your position) to the billing inquiry address and not the payment address.",
+        "time": 1.2,
+        "img": "https://i.ibb.co/j3zfp5Q/car-service-12.jpg"
+    },
+    {
+        "id": 13,
+        "name": "SPARK PLUG REPLACEMENT",
+        "price": 2300,
+        "description": "You should get a written authorization to tow, inspect, test drive, diagnose, or disassemble any part of your car for the purposes of providing an estimate of repair costs, prior to the action being taken. This authorization should describe the actions to be taken, the charges, and whether any parts will be removed or the vehicle disassembled.",
+        "time": 2.05,
+        "img": "https://i.ibb.co/QrXCD7f/car-service-13.jpg"
+    },
+    {
+        "id": 14,
+        "name": "BRAKE FLUID / BRAKES CHECK",
+        "price": 3000,
+        "description": "The shop says it will provide a free rental car during repairs and then requires you to pay for the rental charges. The authorization to commence repairs should also include the date and time that you signed the form. If you decide to have repairs made, make sure the initial work order clearly specifies the work to be done, fees, completion date, terms of payment, and more.",
+        "time": 12.3,
+        "img": "https://i.ibb.co/606NF7h/car-service-14.jpg"
+    },
+    {
+        "id": 15,
+        "name": "TRANSMISSION SERVICES",
+        "price": 6000,
+        "description": "Deceptive shops will extract this personal information from you, commence work without your authorization, and then claim that you authorized the work because you provided this information and would not have done so unless you had authorized the repairs. you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill. Make sure you send the dispute letter and all relevant information (receipts and documentation supporting your position) to the billing inquiry address and not the payment address. ",
+        "time": 4.5,
+        "img": "https://i.ibb.co/pQb19xw/car-service-15.jpg"
+    },
+    {
+        "id": 16,
+        "name": "TYRE CHECK AND ROTATION",
+        "price": 1600,
+        "description": "You should not allow your car to be inspected, disassembled, or lifted up on a rack until you have obtained a copy of the inspection authorization forms with your signature showing the information outlined above. You should clearly indicate in writing that giving this information does not constitute an authorization to inspect or repair your vehicle. The authorization to inspect or repair is a completely separate authorization that should also require your signature.",
+        "time": 2.15,
+        "img": "https://i.ibb.co/C0fxZkS/car-service-16.jpg"
+    },
+    {
+        "id": 17,
+        "name": "ENGINE DIAGNOSTIC",
+        "price": 2000,
+        "description": "If you suspect that the repair shop has not properly repaired the vehicle or charged you too much and you can't get them to resolve the problem to your satisfaction, your first step should be to take your car to another repair shop. The shop advertises \"Free towing\" and then requires you to pay for your towing costs;",
+        "time": 2.2,
+        "img": "https://i.ibb.co/HNBr8j5/car-service-17.jpg"
+    },
+    {
+        "id": 18,
+        "name": "AIR CONDITIONER FILTER CHECK",
+        "price": 1500,
+        "description": "You should not allow anyone to speak for you in negotiating car repairs on your vehicle. Deceptive shops will use this as an excuse to add on extra charges, on the grounds that some other person authorized the repairs. The shop represents that repair services will be completed by a certain day in order to induce the sale, then fails to have the repair services completed by that day;",
+        "time": 1.4,
+        "img": "https://i.ibb.co/N9GTZWX/car-service-18.jpg"
+    },
+    {
+        "id": 19,
+        "name": "COOLANT FLUSH",
+        "price": 1200,
+        "description": "you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill. Make sure you send the dispute letter and all relevant information (receipts and documentation supporting your position) to the billing inquiry address and not the payment address. If you suspect that the repair shop has not properly repaired the vehicle or charged you too much and you can't get them to resolve the problem to your satisfaction.",
+        "time": 7.1,
+        "img": "https://i.ibb.co/5MPRw6g/car-service-19.jpg"
+    },
+    {
+        "id": 20,
+        "name": "CHANGING CAR WINDOW",
+        "price": 15000,
+        "description": "The shop represents that repair services will be completed by a certain day in order to induce the sale, then fails to have the repair services completed by that day. You should clearly indicate in writing that giving this information does not constitute an authorization to inspect or repair your vehicle. The authorization to inspect or repair is a completely separate authorization that should also require your signature.",
+        "time": 3.3,
+        "img": "https://i.ibb.co/Bc8Gkrd/car-service-20.jpg"
+    },
+    {
+        "id": 21,
+        "name": "REPLACING  HEAD / TAIL LISHT",
+        "price": 2000,
+        "description": "You need your car, and when you leave it in the shop for repairs, you can't help worrying about the cost and the quality of the work that's going on under the hood. The shop advertises \"Free towing\" and then requires you to pay for your towing costs. The shop says it will provide a free rental car during repairs and then requires you to pay for the rental charges.",
+        "time": 4.15,
+        "img": "https://i.ibb.co/9s5gvTn/car-service-21.jpg"
+    },
+    {
+        "id": 22,
+        "name": "REPACING CAR BATTERY",
+        "price": 9000,
+        "description": "The shop advertises \"Free towing\" and then requires you to pay for your towing costs. Give the second mechanic a copy of your itemized receipt and order an inspection of the alleged repairs and parts. Get this report in writing. If you notice the same problem with your car is recurring, or find a new problem that should not have arisen, you will be in a better position to negotiate a refund from the first mechanic if you get a second mechanic's opinion of the work done in writing.",
+        "time": 2.3,
+        "img": "https://i.ibb.co/LtP2bPD/car-service-22.jpg"
+    },
+    {
+        "id": 23,
+        "name": "WIPER BLADES REPLACEMENT",
+        "price": 14000,
+        "description": "The shop advertises \"Free towing\" and then requires you to pay for your towing costs. If you paid by credit card and are unhappy with the repairs that were performed by the mechanic, then you may dispute the charge with your credit card company. To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill.",
+        "time": 8.2,
+        "img": "https://i.ibb.co/q78Ntzj/car-service-23.jpg"
+    },
+    {
+        "id": 24,
+        "name": "ENGINE DIAGNOSTIC",
+        "price": 13000,
+        "description": "The shop says it will provide a free rental car during repairs and then requires you to pay for the rental chargesGive the second mechanic a copy of your itemized receipt and order an inspection of the alleged repairs and parts. Get this report in writing. If you notice the same problem with your car is recurring, or find a new problem that should not have arisen, you will be in a better position to negotiate a refund from the first mechanic if you get a second mechanic's opinion of the work done in writing.",
+        "time": 5.25,
+        "img": "https://i.ibb.co/SKCKBXs/car-service-24.jpg"
+    },
+    {
+        "id": 25,
+        "name": "SCHEDULED MAINTENANCE",
+        "price": 9000,
+        "description": "The shop says they will provide repair services pursuant to a warranty then charges you for repair work covered by the warranty.If you suspect that the repair shop has not properly repaired the vehicle or charged you too much and you can't get them to resolve the problem to your satisfaction, your first step should be to take your car to another repair shop.",
+        "time": 2.4,
+        "img": "https://i.ibb.co/CmH436G/car-service-25.jpg"
+    },
+    {
+        "id": 26,
+        "name": "CHANGING OIL",
+        "price": 1000,
+        "description": "The shop starts repair work before obtaining written approval of the loan from the finance company, in those instances where you borrow money to pay for repairs. If the loan company does not approve the loan, and the work is already done, you may still be liable for the payment if you can't show the deception.",
+        "time": 3.25,
+        "img": "https://i.ibb.co/gMcSQzN/car-service-26.jpg"
+    },
+    {
+        "id": 27,
+        "name": "CHANGING A FLAT TYRE",
+        "price": 7000,
+        "description": "The shop fails to notify you and secure your additional approval, in writing, for any additional work to be done that was not set forth in the original written agreement.If you paid by credit card and are unhappy with the repairs that were performed by the mechanic, then you may dispute the charge with your credit card company. To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill.",
+        "time": 2.45,
+        "img": "https://i.ibb.co/fD5bGgt/car-service-27.jpg"
+    },
+    {
+        "id": 28,
+        "name": "REMOVING SCRATCHES FROM THE PAINT",
+        "price": 3000,
+        "description": "If the charge is much higher than the estimate, or if the work was done without your authorization and you feel that you have been overcharged, question the bill. Have the shop write out the reasons for the difference in cost, and keep this written explanation together with the work estimate, final bill, and other paperwork. Make sure the mechanic returns your old parts.",
+        "time": 6.3,
+        "img": "https://i.ibb.co/Wpq87yX/car-service-28.jpg"
+    },
+    {
+        "id": 29,
+        "name": "ENGINE DIAGNOSTIC",
+        "price": 8000,
+        "description": "If the charge is much higher than the estimate, or if the work was done without your authorization and you feel that you have been overcharged, question the bill. Have the shop write out the reasons for the difference in cost, and keep this written explanation together with the work estimate, final bill, and other paperwork. Make sure the mechanic returns your old parts.",
+        "time": 1.15,
+        "img": "https://i.ibb.co/WFMzph6/car-service-29.jpg"
+    },
+    {
+        "id": 30,
+        "name": "REPLACING AIR FILTERS",
+        "price": 5000,
+        "description": "If you suspect that the repair shop has not properly repaired the vehicle or charged you too much and you can't get them to resolve the problem to your satisfaction, your first step should be to take your car to another repair shop.If you paid by credit card and are unhappy with the repairs that were performed by the mechanic, then you may dispute the charge with your credit card company. To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill.",
+        "time": 3.45,
+        "img": "https://i.ibb.co/cxrfx37/car-service-30.jpg"
+    },
+    {
+        "id": 31,
+        "name": "CHANGING CAR BATTERY",
+        "price": 18000,
+        "description": "Give the second mechanic a copy of your itemized receipt and order an inspection of the alleged repairs and parts. Get this report in writing. If you notice the same problem with your car is recurring, or find a new problem that should not have arisen, you will be in a better position to negotiate a refund from the first mechanic if you get a second mechanic's opinion of the work done in writing.",
+        "time": 2.1,
+        "img": "https://i.ibb.co/9YwPrkV/car-service-31.jpg"
+    },
+    {
+        "id": 32,
+        "name": "REPLACING A HEAD OR TAIL LIGHT",
+        "price": 15000,
+        "description": "If you paid by credit card and are unhappy with the repairs that were performed by the mechanic, then you may dispute the charge with your credit card company. To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill.",
+        "time": 12.15,
+        "img": "https://i.ibb.co/mCSgG4x/car-service-32.jpg"
+    },
+    {
+        "id": 33,
+        "name": "CHANGING SPARK PLUGS",
+        "price": 4000,
+        "description": "you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill. Make sure you send the dispute letter and all relevant information (receipts and documentation supporting your position) to the billing inquiry address and not the payment address.",
+        "time": 8.3,
+        "img": "https://i.ibb.co/f80bN5f/car-service-33.jpg"
+    },
+    {
+        "id": 34,
+        "name": "NEW TIRES",
+        "price": 12000,
+        "description": "Before you go to the repair shop and the engine check light is on, consider taking it to an auto parts store who may run a computer diagnostic test on your vehicle free of charge. You can then compare this to what you are told by the repair shop.",
+        "time": 7.5,
+        "img": "https://i.ibb.co/HHhQpnS/car-service-34.jpg"
+    },
+    {
+        "id": 35,
+        "name": "BRAKE WORK",
+        "price": 8000,
+        "description": "Do your homework to check on a repair shop’s reputation online and with friends and family. When you're researching repair shops, you can also find out whether they have any mechanics that are ASE (Automotive Service Excellence) certified.",
+        "time": 3.25,
+        "img": "https://i.ibb.co/YhdMjbD/car-service-35.jpg"
+    },
+    {
+        "id": 36,
+        "name": "ANTI-FREEZE ADDED",
+        "price": 3000,
+        "description": "Your best protection from fraud and faulty repair work is to find a reputable mechanic or repair shop before your car needs to be repaired. If you paid by credit card and are unhappy with the repairs that were performed by the mechanic, then you may dispute the charge with your credit card company. To dispute the charge, you must do so in writing to your credit card company and it must be done within 60 days after you have received the credit card bill.",
+        "time": 6.5,
+        "img": "https://i.ibb.co/xgYVtGj/car-service-36.jpg"
+    },
+    {
+        "id": 37,
+        "name": "OID FILTER CHANGED",
+        "price": 7000,
+        "description": "You need your car, and when you leave it in the shop for repairs, you can't help worrying about the cost and the quality of the work that's going on under the hood. The shop fails to notify you and secure your additional approval, in writing, for any additional work to be done that was not set forth in the original written agreement;",
+        "time": 1.15,
+        "img": "https://i.ibb.co/9Nc2vD7/Driver-checks-the-goods-Man-in-uniform-Truck-in-the-garage.jpg"
+    }
+]

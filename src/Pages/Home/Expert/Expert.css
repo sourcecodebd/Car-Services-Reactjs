@@ -1,0 +1,21 @@
+.expert{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    place-items: center;
+    color: white;
+}
+.expert img{
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin: 10px 0
+}
+
+@media only screen and (max-width:468px){
+    .expert{
+        display: block
+    }
+}

@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
+h1, h2{
+  color: darkblue;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h1{
+  font-size: 4em;
+}
+h2{
+  
+  font-size: 2.5em;
+}
+.lines{
+  height: 4px;
+  width: 100px;
+  border-radius: 8px;
+  margin: 20px auto 40px auto;
+  background-color: rgb(38, 129, 129);
+}
+@media only screen and (max-width:468px){
+  .h1, h2{
+      font-size: 1.5em;
+  }
+}
+@media only screen and (min-width:468px) and (max-width:968px){
+  .h1, h2{
+    font-size: 2.5em;
+  }
+}
+@media only screen and (min-width:968px) and (max-width:1200px){
+  .h1, h2{
+    font-size: 3.5em;
+  }
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/XW7Xzyy/car-expert-1.jpg",
+        "name": "John Hopkins",
+        "expertise": "Engine Expert"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/XW7Xzyy/car-expert-1.jpg",
+        "name": "Lucas Burke",
+        "expertise": "Painting Expert"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/XW7Xzyy/car-expert-1.jpg",
+        "name": "Joel Henderson",
+        "expertise": "Tire-Repair Expert"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/XW7Xzyy/car-expert-1.jpg",
+        "name": "Louie Griffiths",
+        "expertise": "Car-Brake Expert"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/XW7Xzyy/car-expert-1.jpg",
+        "name": "Paul Noel",
+        "expertise": "Car-Tuning Expert"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/XW7Xzyy/car-expert-1.jpg",
+        "name": "Walker Rosales",
+        "expertise": "Oil-Changing Expert"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/XW7Xzyy/car-expert-1.jpg",
+        "name": "Braylen Alston",
+        "expertise": "Transmission-Diagnostic Expert"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/XW7Xzyy/car-expert-1.jpg",
+        "name": "Malaki Gibbs",
+        "expertise": "Auto Body Repair Expert"
+    }
+]

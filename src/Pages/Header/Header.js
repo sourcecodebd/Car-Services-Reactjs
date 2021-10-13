@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Header.css'
 import pressOnBar from './Nav.js';
-import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const { user, logOut } = useAuth();
@@ -15,10 +15,10 @@ const Header = () => {
             <nav className="nav">
                 <div>
                     <NavLink to="/"><img src="./favicon.ico" className="header-image" width="30px" title="car-services-bd.com" alt="Car-Services" /></NavLink>
-                    <NavLink className="navlink" activeStyle={navStyle} to="/home">Home</NavLink>
+                    <NavHashLink className="navlink" activeStyle={navStyle} to="/home#banner">Home</NavHashLink>
                     <NavLink className="navlink" activeStyle={navStyle} to="/search"><i className="fas fa-search"></i></NavLink>
-                    <HashLink className="navlink" activeStyle={navStyle} to="/services#services">Services</HashLink>
-                    <HashLink className="navlink" activeStyle={navStyle} to="/experts#experts">Experts</HashLink>
+                    <NavHashLink className="navlink" activeStyle={navStyle} to="/home#services">Services</NavHashLink>
+                    <NavHashLink className="navlink" activeStyle={navStyle} to="/home#experts">Experts</NavHashLink>
                     <NavLink className="navlink" activeStyle={navStyle} to="/place-order">Place Order</NavLink>
                     <NavLink className="navlink" activeStyle={navStyle} to="/shipping">Shipping</NavLink>
                     {

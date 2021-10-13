@@ -26,7 +26,7 @@ const Services = () => {
     return (
         <div>
 
-            <div className="service-container">
+            <div className="service-container" id="services">
                 <a href="/"><h2 className="mt-4">Total Services: {search.length}</h2></a>
                 <p className="lines"></p>
 
